@@ -32,6 +32,7 @@ ol {
   font-size: 27px;
 }
 
+/* Fix category colors in production */
 .bg-yellow-600 {
   background-color: #d97705;
 }
