@@ -1,6 +1,6 @@
 # DevSpace Blog
 
-Static Next.js blog that uses Markdown for posts. Includes pagination, categories and search
+> Static Next.js blog that uses Markdown for posts. Includes pagination, categories and search
 
 This project is part of my [Next.js Udemy course](https://www.udemy.com/course/nextjs-dev-to-deployment)
 
