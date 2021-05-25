@@ -10,13 +10,13 @@ import { getPosts } from '@/lib/posts'
 export default function CategoryBlogPage({ posts, categoryName, categories }) {
   return (
     <Layout>
-      <div className='flex justify-between flex-col md:flex-row'>
+      <div className='flex justify-between'>
         <div className='w-3/4 mr-10'>
           <h1 className='text-5xl border-b-4 p-5 font-bold'>
             Posts in {categoryName}
           </h1>
 
-          <div className='grid grid-cols-2 gap-5'>
+          <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5'>
             {posts.map((post, index) => (
               <Post key={index} post={post} />
             ))}
