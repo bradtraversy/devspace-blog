@@ -32,7 +32,7 @@ export default function Search() {
               className='bg-white h-10 px-5 pr-10 rounded-full text-sm focus:outline-none w-72'
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder='Search Posts...'
+              placeholder='Search...'
             />
 
             <FaSearch className='absolute top-0 right-0 text-black mt-3 mr-4' />
